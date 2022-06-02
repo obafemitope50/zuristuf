@@ -6,4 +6,27 @@ Stes in addiing file to github
  create a file eithe python or js in the same directory
  check the status using ['git status'], if it is not added
  add using ['git add filename'] you can add the entire folder.
+ after staging, commit file using ['git commit -m "message or comments"']
+ check status and remote with [git status] and [git remote -v]
+
+
+
+To update our repository'
+ use [git remote -v] to get the fetch url
+ use [git pull origin main] then use [git push origin main] (shows records)
  
+
+Create a new branch
+ create a new branch using [git branch dev]
+ check list with ['git branch']
+ to switcht to new branch use ['git checkout dev], check git status to confirm changes
+ we can make a new directory in the new branch using ['mkdir newname']
+ go into the directory using cd 
+
+Create a django file in the new dev branch
+ use [mkdir django-project]
+ go into the directory using cd 
+ use the command line [django-admin startproject github-demo] or [python -m django startproject practicedjango]
+     To add to repository
+     check git status. its not added
+     add the old folder using ['git add -A']
