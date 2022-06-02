@@ -1,0 +1,9 @@
+Stes in addiing file to github
+ Create new repository and copy ssh link
+ Create a folder in your computer.
+ go to the directory in command prompt.
+ clone the repository using ['git clone copiedurl']
+ create a file eithe python or js in the same directory
+ check the status using ['git status'], if it is not added
+ add using ['git add filename'] you can add the entire folder.
+ 
